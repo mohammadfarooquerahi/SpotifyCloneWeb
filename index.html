@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotify - Web Player: Music for everyone</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="utility.css" />
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="navstart">
+        <img class="hamburger" src="hamburger.svg" alt="/">
+        <div class="logo invert">
+          <img class="logoreal" src="logo.svg" alt="/">
+          <img class="home" src="home.svg" alt="/">
+        </div>
+        <div class="search">
+          <img class="icon5 invert" src="search.svg" alt="/">
+          <input type="text" placeholder="What do you want to Play?">
+          <div class="lines"></div>
+          <img class="icon4 invert" src="icon4.svg" alt="">
+        </div>
+      </div>
+      <div class="navend">
+        <ul>
+          <li><a href="/">Premium</li></a>
+          <li><a href="/">Support</li></a>
+          <li><a href="/">Download</li></a>
+        </ul>
+        <div class="lines"></div>
+        <img class="downloadsvg invert" src="download.svg" alt="/">
+        <p>Install App</p>
+
+        <button class="Signup">Sign up</button>
+        <button class="Login">Log in</button>
+      </div>
+
+    </nav>
+  </header>
+
+  <div class="container flex">
+    <div class="left border m-1 bg-gray">
+      <div class="library">
+        <div class="heading">
+          <h2>Your Library</h2>
+          <div class="plusCloseSVG">
+            <img class="invert plus" src="https://cdn-icons-png.flaticon.com/128/1828/1828925.png" alt="/" />
+            <div class="closebtn">
+              <img class="close" src="close.svg"alt="/">
+            </div>
+          </div>
+        </div>
+        <div class="songlist sidebar">
+          <ul>
+            <!-- li from js function getSongs() and main() -->
+          </ul>
+        </div>
+        <div class="footer">
+          <ul>
+            <li><a href="/">Legal</a></li>
+            <li><a href="/">Safety&PrivacyCenter</a></li>
+            <li><a href="/">Privacy Policy</a></li>
+            <li><a href="/">Cookies</a></li>
+            <li><a href="/">About Ads</a></li>
+            <li><a href="/">Accessibility</a></li>
+            <li><a href="/">Cookies</a></li>
+          </ul>
+          <h3>Cookies</h3>
+          <button class="english-btn">English</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="right border m-1 bg-gray">
+      <div class="mainScroll sidebar">
+        <div class="main-heading">
+          <div class="headingshow">
+            <h1>Trending songs</h1>
+            <p>Show all</p>
+          </div>
+          <div class="cardContainer">
+            <div class="card">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img src="https://i.scdn.co/image/ab67616d00001e02a7e251b543c77a6ed356dfbe" alt="img" />
+              <h2>SAIYAARA (From "saiyaara")</h2>
+              <p>Happy and joy hit songs for you, Arjeet singh, Atif Aslam!</p>
+            </div>
+
+            <div class="card">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img src="https://i.scdn.co/image/ab67616d00001e02a7e251b543c77a6ed356dfbe" alt="img" />
+              <h2>SAIYAARA (From "samai raina")</h2>
+              <p>Happy and joy hit songs for you, Arjeet singh, Atif Aslam!</p>
+            </div>
+
+            <div class="card">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img src="https://i.scdn.co/image/ab67616d00001e02a7e251b543c77a6ed356dfbe" alt="img" />
+              <h2>SAIYAARA (From "soomro lai")</h2>
+              <p>Happy and joy hit songs for you, Arjeet singh, Atif Aslam!</p>
+            </div>
+
+            <div class="card">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img src="https://i.scdn.co/image/ab67616d00001e02a7e251b543c77a6ed356dfbe" alt="img" />
+              <h2>SAIYAARA (From "asam jan")</h2>
+              <p>Happy and joy hit songs for you, Arjeet singh, Atif Aslam!</p>
+            </div>
+            <div class="card">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img src="https://i.scdn.co/image/ab67616d00001e02a7e251b543c77a6ed356dfbe" alt="img" />
+              <h2>SAIYAARA (From "sajid wala")</h2>
+              <p>Happy and joy hit songs for you, Arjeet singh, Atif Aslam!</p>
+            </div>
+            <div class="card">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img src="https://i.scdn.co/image/ab67616d00001e02a7e251b543c77a6ed356dfbe" alt="img" />
+              <h2>SAIYAARA (From "sirf naam")</h2>
+              <p>Happy and joy hit songs for you, Arjeet singh, Atif Aslam!</p>
+            </div>
+
+            <div class="card">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img src="https://i.scdn.co/image/ab67616d00001e02a7e251b543c77a6ed356dfbe" alt="img" />
+              <h2>SAIYAARA (From "naam kafi hai")</h2>
+              <p>Happy and joy hit songs for you, Arjeet singh, Atif Aslam!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-heading">
+          <div class="headingshow">
+            <h1>Popular artists</h1>
+            <p>Show all</p>
+          </div>
+          <div class="cardContainerArt">
+            <div class="cardArt">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img class="pic" src="https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7" alt="/" />
+              <h2>Arjit Singh</h2>
+              <p>Artist</p>
+            </div>
+            <div class="cardArt">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img class="pic" src="https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7" alt="/" />
+              <h2>Arjit Singh</h2>
+              <p>Artist</p>
+            </div>
+            <div class="cardArt">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img class="pic" src="https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7" alt="/" />
+              <h2>Arjit Singh</h2>
+              <p>Artist</p>
+            </div>
+            <div class="cardArt">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img class="pic" src="https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7" alt="/" />
+              <h2>Arjit Singh</h2>
+              <p>Artist</p>
+            </div>
+            <div class="cardArt">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img class="pic" src="https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7" alt="/" />
+              <h2>Arjit Singh</h2>
+              <p>Artist</p>
+            </div>
+            <div class="cardArt">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img class="pic" src="https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7" alt="/" />
+              <h2>Arjit Singh</h2>
+              <p>Artist</p>
+            </div>
+            <div class="cardArt">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img class="pic" src="https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7" alt="/" />
+              <h2>Arjit Singh</h2>
+              <p>Artist</p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="main-heading">
+          <div class="headingshow">
+            <h1>Popular albums and singles</h1>
+            <p>Show all</p>
+          </div>
+          <div class="cardContainer">
+            <div class="card">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img src="https://i.scdn.co/image/ab67616d00001e0285c5968be0d0d9c545241124" alt="img" />
+              <h2>Pal Pal</h2>
+              <p>Afusic, AliSoomroMusic</p>
+            </div>
+            <div class="card">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img src="https://i.scdn.co/image/ab67616d00001e0285c5968be0d0d9c545241124" alt="img" />
+              <h2>Pal Pal</h2>
+              <p>Afusic, AliSoomroMusic</p>
+            </div>
+            <div class="card">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img src="https://i.scdn.co/image/ab67616d00001e0285c5968be0d0d9c545241124" alt="img" />
+              <h2>Pal Pal</h2>
+              <p>Afusic, AliSoomroMusic</p>
+            </div>
+            <div class="card">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img src="https://i.scdn.co/image/ab67616d00001e0285c5968be0d0d9c545241124" alt="img" />
+              <h2>Pal Pal</h2>
+              <p>Afusic, AliSoomroMusic</p>
+            </div>
+            <div class="card">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img src="https://i.scdn.co/image/ab67616d00001e0285c5968be0d0d9c545241124" alt="img" />
+              <h2>Pal Pal</h2>
+              <p>Afusic, AliSoomroMusic</p>
+            </div>
+            <div class="card">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img src="https://i.scdn.co/image/ab67616d00001e0285c5968be0d0d9c545241124" alt="img" />
+              <h2>Pal Pal</h2>
+              <p>Afusic, AliSoomroMusic</p>
+            </div>
+            <div class="card">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img src="https://i.scdn.co/image/ab67616d00001e0285c5968be0d0d9c545241124" alt="img" />
+              <h2>Pal Pal</h2>
+              <p>Afusic, AliSoomroMusic</p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="main-heading">
+          <div class="headingshow">
+            <h1>Dinner preps</h1>
+            <p>Show all</p>
+          </div>
+          <div class="cardContainer">
+            <div class="card">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img src="https://i.scdn.co/image/ab67706f000000029949460253defc00bb38d4a2" alt="img" />
+              <p>Home to Pakistani Hits Songs. Cover: Afusic
+              </p>
+            </div>
+            <div class="card">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img src="https://i.scdn.co/image/ab67706f000000029949460253defc00bb38d4a2" alt="img" />
+              <p>Home to Pakistani Hits Songs. Cover: Afusic
+              </p>
+            </div>
+            <div class="card">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img src="https://i.scdn.co/image/ab67706f000000029949460253defc00bb38d4a2" alt="img" />
+              <p>Home to Pakistani Hits Songs. Cover: Afusic
+              </p>
+            </div>
+            <div class="card">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img src="https://i.scdn.co/image/ab67706f000000029949460253defc00bb38d4a2" alt="img" />
+              <p>Home to Pakistani Hits Songs. Cover: Afusic
+              </p>
+            </div>
+            <div class="card">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img src="https://i.scdn.co/image/ab67706f000000029949460253defc00bb38d4a2" alt="img" />
+              <p>Home to Pakistani Hits Songs. Cover: Afusic
+              </p>
+            </div>
+            <div class="card">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img src="https://i.scdn.co/image/ab67706f000000029949460253defc00bb38d4a2" alt="img" />
+              <p>Home to Pakistani Hits Songs. Cover: Afusic
+              </p>
+            </div>
+            <div class="card">
+              <img class="playbtn" src="play.svg" alt="" />
+              <img src="https://i.scdn.co/image/ab67706f000000029949460253defc00bb38d4a2" alt="img" />
+              <p>Home to Pakistani Hits Songs. Cover: Afusic
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="playbar">
+        <div class="abovebar">
+
+          <div class="songinfo">
+
+          </div>
+          <div class="songbutton">
+            <img id="previous" class="invert" src="prevoiussong.svg" alt="presvg">
+            <img id="play" class="invert" src="playsong.svg" alt="songsvg">
+            <!-- <img src="playingsong.svg" alt="/"> -->
+            <img id="next" class="invert" src="nextsong.svg" alt="nxtsvg">
+          </div>
+          <div class="timevol">
+            <div class="volume">
+              <img width="22" src="volume.svg" alt="">
+              <div class="range">
+                <input type="range" name="volume">
+              </div>
+            </div>
+            <div class="songtime">
+              
+            </div>
+          </div>
+        </div>
+        <div class="seekbar">
+          <div class="circle">
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.border{
+    border: 2px solid black;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-gray{
+    background-color: #1d1d1d;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin:10px 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+
+/* Apply this to your sidebar element */
+.sidebar {
+  overflow-y: auto;
+  background-color: #1e1e1e; /* dark background */
+  color: #fff;
+}
+
+/* Custom dark scrollbar */
+.sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: #2c2c2c;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: #555; 
+  border-radius: 4px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
+
+/* Optional for Firefox */
+
+/* .sidebar {
+  scrollbar-width: thin;
+  scrollbar-color: #555 #2c2c2c; 
+}
+   */

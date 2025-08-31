@@ -17,9 +17,9 @@ function secToMinSec(seconds){
 }
 
 async function getSongs(){
-    let a = await fetch("http://127.0.0.1:3000/Spotiify/songs/");
+    let a = await fetch("./songs/");
     let response=await a.text();
-    await fetch("http://127.0.0.1:3000/Spotiify/songs/")
+    await fetch("./songs/")
     let div = document.createElement("div")
     div.innerHTML =response;
     let as = div.getElementsByTagName("a")
@@ -189,5 +189,6 @@ async function main(){
         
     })
 }
+
 
 main()
